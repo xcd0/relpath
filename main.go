@@ -39,8 +39,10 @@ Description:
     '%v' calculates and outputs the relative path between specified paths.
 
 Arguments:
-    <path-to>      The destination path for which the relative path is calculated. This path is output as relative from the current directory or from <path-base>.
-    <path-base>    The base directory path (optional). If specified, the relative path from this path to <path-to> is calculated.
+    <path-to>      The destination path for which the relative path is calculated.
+                   This path is output as relative from the current directory or from <path-base>.
+    <path-base>    The base directory path (optional).
+                   If specified, the relative path from this path to <path-to> is calculated.
 
 Examples:
     1. Output the relative path from the current directory to a specified path:
